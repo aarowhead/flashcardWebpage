@@ -1,0 +1,66 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+#githubLink {
+  color: #fff;
+}
+
+#githubLink:hover {
+  color: #ccc;
+}
+
+.card {
+  margin: 20px auto 20px auto;
+  width: 50%;
+  padding-top: 30%;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+
+.list-group {
+  margin: 20px;
+}
+
+.included-cards-radios {
+  margin: 20px auto 20px auto;
+  width: 50%;
+}
+
+.card-buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 5px;
+  right: 5px;
+}
+
+.card .card-body .card-title {
+  text-align: center;
+}
+
+.card .card-body .card-text {
+  text-align: center;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.selected {
+  text-decoration-color: #0000ff;
+}
